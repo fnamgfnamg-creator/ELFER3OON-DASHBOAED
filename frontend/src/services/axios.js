@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.REACT_APP_API_URL || 'https://ample-sparkle-production.up.railway.app/api';
+const API_URL = import.meta.env.REACT_APP_API_URL || 'http://localhost:10000/api';
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
